@@ -1,12 +1,8 @@
-import { createStore, combineReducers } from 'redux';
+import { createStore } from 'redux';
 import ageReducer from './reducers/ageReducer';
 
-const rootReducer = combineReducers({
-  ageReducer
-});
-
 const configureStore = () => {
-  return createStore(rootReducer);
+  return createStore(ageReducer);
 }
 
 export default configureStore;

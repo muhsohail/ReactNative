@@ -1,1 +1,0 @@
-export const CALCAULTE_AGE = 'CALCAULTE_AGE'
